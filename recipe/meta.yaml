@@ -1,5 +1,5 @@
 {% set name = "lambdaprompt" %}
-{% set version = "0.5.5" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lambdaprompt-{{ version }}.tar.gz
-  sha256: 672169432af843dfb46a28e50d59eeaa313df62ca6a0eab844cf891d91069275
+  sha256: 5242c4a4eeae022b9f18045d8ec3ce1b188f25c25390f700b4e37eb1177f556e
 
 build:
   noarch: python
